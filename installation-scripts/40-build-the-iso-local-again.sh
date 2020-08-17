@@ -14,8 +14,12 @@
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
-buildFolder="$HOME/arcolinuxb-build"
-outFolder="$HOME/ArcoLinuxB-Out"
+scriptFolder=$(dirname $(realpath "$0"))
+baseFolder=$(realpath "$scriptFolder/../../")
+echo "ISO WILL BE BUILT IN: $baseFolder"
+#exit
+buildFolder="$baseFolder/arcolinuxb-build"
+outFolder="$baseFolder/ArcoLinuxB-Out"
 
 #Setting variables
 #Let us change the name"
@@ -171,9 +175,9 @@ echo "Copying files and folder to build folder as root"
 sudo mkdir $buildFolder
 sudo cp -r ../work/* $buildFolder
 
-sudo chmod 750 ~/arcolinuxb-build/archiso/airootfs/etc/sudoers.d
-sudo chmod 750 ~/arcolinuxb-build/archiso/airootfs/etc/polkit-1/rules.d
-sudo chgrp polkitd ~/arcolinuxb-build/archiso/airootfs/etc/polkit-1/rules.d
+sudo chmod 750 $buildFolder/archiso/airootfs/etc/sudoers.d
+sudo chmod 750 $buildFolder/archiso/airootfs/etc/polkit-1/rules.d
+sudo chgrp polkitd $buildFolder/archiso/airootfs/etc/polkit-1/rules.d
 
 cd $buildFolder/archiso
 
