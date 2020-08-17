@@ -8,9 +8,9 @@ arch-install-scripts
 bind-tools
 broadcom-wl
 btrfs-progs
-clonezilla
+#clonezilla
 crda
-darkhttpd
+#darkhttpd
 ddrescue
 dhclient
 #dhcpcd
@@ -107,7 +107,7 @@ xf86-video-ati
 #xf86-video-dummy
 xf86-video-fbdev
 xf86-video-intel
-xf86-video-nouveau
+#xf86-video-nouveau
 xf86-video-openchrome
 #xf86-video-qxl
 xf86-video-vesa
@@ -164,12 +164,12 @@ pulseaudio-alsa
 pavucontrol
 
 ###bluetooth
-blueberry
-bluez
-bluez-libs
-bluez-utils
+#blueberry
+#bluez
+#bluez-libs
+#bluez-utils
 #bluez-firmware
-pulseaudio-bluetooth
+#pulseaudio-bluetooth
 
 ###network
 avahi
@@ -227,7 +227,7 @@ poppler-qt5
 ###applications
 #atom
 #chromium
-#darktable
+darktable
 #deadbeef
 dmenu
 #evolution
@@ -242,9 +242,9 @@ gmrun
 #guvcview
 imagemagick
 #inkscape
-#libreoffice-fresh
+libreoffice-fresh
 #lshw
-#meld
+meld
 nitrogen
 numlockx
 #pragha
@@ -257,7 +257,7 @@ variety
 
 ###conky
 jq
-#lm_sensors
+lm_sensors
 
 ###cursors
 #xcursor-simpleandsoft
@@ -290,7 +290,7 @@ kvantum-qt5
 arandr
 asciinema
 bash-completion
-#baobab
+baobab
 #catfish
 #cronie
 dconf-editor
@@ -299,7 +299,7 @@ dex
 #evince
 expac
 file-roller
-#filezilla
+filezilla
 git
 gksu
 #glances
@@ -309,13 +309,13 @@ gnome-keyring
 #gnome-software
 #gnome-software-packagekit-plugin
 gparted
-#gpick
+gpick
 #gtop
 hardinfo
-#hddtemp
+hddtemp
 htop
-#hunspell
-#hunspell-en
+hunspell
+hunspell-en
 #hyphen
 #hyphen-en
 #grsync
@@ -327,7 +327,7 @@ laptop-detect
 lsb-release
 mlocate
 #nomacs
-oh-my-zsh-git
+#oh-my-zsh-git
 p7zip
 #plank
 playerctl
@@ -364,19 +364,19 @@ xapps
 xdo
 xdotool
 xdg-desktop-portal-gtk
-#youtube-dl
+youtube-dl
 zenity
-zsh
-zsh-completions
-zsh-syntax-highlighting
+#zsh
+#zsh-completions
+#zsh-syntax-highlighting
 
 ###########################################################################
 #                           ARCOLINUX_REPOS
 ###########################################################################
 
 ###applications
-#vivaldi
-#vivaldi-codecs-ffmpeg-extra-bin
+vivaldi
+vivaldi-codecs-ffmpeg-extra-bin
 
 ###cursors
 #breeze-cursors-lh
@@ -399,7 +399,7 @@ ttf-ms-fonts
 #numix-circle-icon-theme-git
 #paper-icon-theme
 sardi-icons
-surfn-icons-git
+#surfn-icons-git
 #surfn-arc-breeze-icons-git
 #zafiro-icon-theme
 
@@ -415,7 +415,7 @@ conky-lua-archers
 downgrade
 #font-manager-git
 #glxinfo
-grub-customizer
+#grub-customizer
 hardcode-fixer-git
 inxi
 mintstick-git
@@ -427,7 +427,7 @@ pamac-aur
 python-pyparted
 #python-pywal
 #screenkey-git
-#sublime-text-dev
+sublime-text-dev
 #the_platinum_searcher-bin
 tmux
 trizen
@@ -513,7 +513,7 @@ arcolinux-wallpapers-git
 #arcolinux-wallpapers-lxqt-dual-git
 #arcolinux-xfce4-panel-profiles-git
 #arcolinux-xmobar-git
-arcolinux-zsh-git
+#arcolinux-zsh-git
 
 ###########################################################################
 #                           ARCOLINUX DESKTOP FOLDER
